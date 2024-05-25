@@ -1,0 +1,40 @@
+.button {
+  padding: 14px;
+  width: 100%;
+  border: 0;
+  border-radius: 6px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+  font-size: 13px;
+  transition: all 0.2s;
+}
+
+.buttonPrimary {
+  background-image: linear-gradient(#a2a7f0, #696edd);
+  color: #fff;
+  border: 1px solid #6d72de;
+}
+
+.buttonPrimary:hover {
+  background-image: none;
+  border: 1px solid #6d72de;
+  background-color: #fff;
+  color: #6d72de;
+  cursor: pointer;
+}
+
+.buttonSecondary {
+  background-image: none;
+  background-color: #fff;
+  color: #6d72de;
+  border: 1px solid #fff;
+}
+
+.buttonSecondary:hover {
+  background-image: none;
+  border: 1px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  cursor: pointer;
+}
